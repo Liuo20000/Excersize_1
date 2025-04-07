@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+#include <string>
+#include <vector>
+int main() {
+	string  selection;
+	vector <string> v;
+	int n;
+	v.push_back("book1");
+	v.push_back("book2");
+	v.push_back("book3");
+	v.push_back("book4");
+	cin >> n;
+	for (int i = 0; i < n; i++)
+	{
+		cin >> selection;
+		if (selection == "book1" || selection == "book2" || selection == "book3" || selection == "book4")
+		{
+			cout << "OK" << endl;
+		}
+		else
+		{
+			v.push_back(selection);
+			cout << "Added" << endl;
+		}
+	}	
+}
