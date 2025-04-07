@@ -1,2 +1,2 @@
 # Excersize_1
- prof goshwa excersize 1
+ Prof Goshwa Excersize 1
